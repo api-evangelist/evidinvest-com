@@ -64,5 +64,114 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-evidinvest-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://evidinvest.com/
+EvidInvest provides a valuation platform that delivers fair value estimates for over 500 US public companies, derived from SEC filings using seven independent methods. The service offers a web interface and a free REST API for developers to retrieve valuation data, sector information, and financial metrics without requiring an account. EvidInvest aims to democratize financial analysis by making rigorous valuation models accessible via both UI and programmatic access.
+
+**Areas:** Company · Finance · Valuation · API · Data
+
+## evidinvest-com on APIs.io
+
+Everything profiled for evidinvest-com is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/evidinvest-com/](https://apis.io/providers/evidinvest-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [EvidInvest Financial Data API](https://apis.io/apis/evidinvest-com/evidinvest-financial-data-api/) — REST API exposing 54 financial data, valuation, SEC filing, and portfolio tools, every figure traceable to an SEC filing.
+- [evidinvest-com Calculations API](https://apis.io/apis/evidinvest-com/evidinvest-com-calculations-api/) — The Calculations API from evidinvest-com — 5 operation(s) for calculations.
+- [evidinvest-com Financial Data API](https://apis.io/apis/evidinvest-com/evidinvest-com-financial-data-api/) — The Financial Data API from evidinvest-com — 13 operation(s) for financial data.
+- [evidinvest-com Machine Payments API](https://apis.io/apis/evidinvest-com/evidinvest-com-machine-payments-api/) — The Machine Payments API from evidinvest-com — 6 operation(s) for machine payments.
+- [evidinvest-com Market Data API](https://apis.io/apis/evidinvest-com/evidinvest-com-market-data-api/) — The Market Data API from evidinvest-com — 5 operation(s) for market data.
+- [evidinvest-com Portfolio API](https://apis.io/apis/evidinvest-com/evidinvest-com-portfolio-api/) — The Portfolio API from evidinvest-com — 2 operation(s) for portfolio.
+- [evidinvest-com SEC Filings API](https://apis.io/apis/evidinvest-com/evidinvest-com-sec-filings-api/) — The SEC Filings API from evidinvest-com — 6 operation(s) for sec filings.
+- [evidinvest-com User Lists API](https://apis.io/apis/evidinvest-com/evidinvest-com-user-lists-api/) — The User Lists API from evidinvest-com — 6 operation(s) for user lists.
+- [evidinvest-com Valuation API](https://apis.io/apis/evidinvest-com/evidinvest-com-valuation-api/) — The Valuation API from evidinvest-com — 17 operation(s) for valuation.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Evidinvest Com Agentic Access](https://apis.io/agentic-access/evidinvest-com/evidinvest-com-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [evidinvest-com API Rules](https://apis.io/rules/evidinvest-com/evidinvest-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Evidinvest Com Authentication](https://apis.io/security/evidinvest-com/evidinvest-com-authentication/)
+- [Evidinvest Com Domain Security](https://apis.io/security/evidinvest-com/evidinvest-com-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://evidinvest.com/)
+- [Documentation](https://evidinvest.com/developers)
+- [Pricing](https://evidinvest.com/pricing)
+- [Sign up](https://evidinvest.com/sign-up?redirect_url=%2Fsettings%2Fapi-keys)
+- [Support](https://evidinvest.com/support)
+- [Blog](https://evidinvest.com/blog)
+- [Terms of service](https://evidinvest.com/terms-of-service)
+- [Privacy policy](https://evidinvest.com/privacy-policy)
+- [GitHub](https://github.com/evidinvest)
+
+## API Evangelist rating
+
+**Kin Score 44.4** — developing · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 46.1 |
+| Contract governance | 79.1 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 44.7 |
+
+**Agent readiness 46.6** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | near-conformant (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/evidinvest-com/](https://apis.io/providers/evidinvest-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for evidinvest-com: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/evidinvest-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
